@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>{{ $title ?? null }} - {{ config('app.name', 'Example') }}</title>
-	<script src="https://cdn.tailwindcss.com"></script>
+  @vite(['resources/js/app.js'])
 </head>
 
 <body>
